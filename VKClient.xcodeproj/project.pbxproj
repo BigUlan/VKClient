@@ -13,6 +13,7 @@
 		B3927DD229A0F32300D28437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3927DD029A0F32300D28437 /* Main.storyboard */; };
 		B3927DD429A0F32400D28437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3927DD329A0F32400D28437 /* Assets.xcassets */; };
 		B3927DD729A0F32400D28437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3927DD529A0F32400D28437 /* LaunchScreen.storyboard */; };
+		B3927DDF29A1275700D28437 /* UIViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3927DDE29A1275700D28437 /* UIViewController+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B3927DD329A0F32400D28437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3927DD629A0F32400D28437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3927DD829A0F32400D28437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3927DDE29A1275700D28437 /* UIViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				B3927DCA29A0F32300D28437 /* AppDelegate.swift */,
 				B3927DCC29A0F32300D28437 /* SceneDelegate.swift */,
+				B3927DDE29A1275700D28437 /* UIViewController+extension.swift */,
 				B3927DCE29A0F32300D28437 /* ViewController.swift */,
 				B3927DD029A0F32300D28437 /* Main.storyboard */,
 				B3927DD329A0F32400D28437 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3927DDF29A1275700D28437 /* UIViewController+extension.swift in Sources */,
 				B3927DCF29A0F32300D28437 /* ViewController.swift in Sources */,
 				B3927DCB29A0F32300D28437 /* AppDelegate.swift in Sources */,
 				B3927DCD29A0F32300D28437 /* SceneDelegate.swift in Sources */,
