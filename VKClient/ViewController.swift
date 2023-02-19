@@ -14,15 +14,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func loginButton(_ sender: Any) {
-        if loginTextField.text == "w" && passwordTextField.text == "q" {
+        if loginTextField.text == "" && passwordTextField.text == "" {
             performSegue(withIdentifier: "Login", sender: nil)
         } else {
             showAlert(message: "Неверный логин или пароль")
             return }
     }
 }
-
