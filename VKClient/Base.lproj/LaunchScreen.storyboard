@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="caveira" translatesAutoresizingMaskIntoConstraints="NO" id="t1O-EM-zaa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="siege" translatesAutoresizingMaskIntoConstraints="NO" id="t1O-EM-zaa">
                                 <rect key="frame" x="16" y="245.66666666666663" width="361" height="361"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="t1O-EM-zaa" secondAttribute="height" multiplier="1:1" id="G8b-EO-9J7"/>
@@ -24,7 +25,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.12556936603521748" green="0.33883759469696972" blue="0.13024246318126684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
                         <constraints>
                             <constraint firstItem="t1O-EM-zaa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="QMq-v5-sZo"/>
                             <constraint firstItem="t1O-EM-zaa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="XIw-h3-GID"/>
@@ -39,6 +40,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="caveira" width="500" height="500"/>
+        <image name="siege" width="223.33332824707031" height="70.333335876464844"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
